@@ -1,0 +1,163 @@
+[
+    {
+        "id": "m1",
+        "name": "Abyssal Whip",
+        "price": "1,300,000",
+        "description": "A powerful whip requiring an Attack level of 70 to wield.",
+        "image": "images/abyssal-whip.jpg"
+    },
+    {
+        "id": "m2",
+        "name": "Ancient Cloak",
+        "price": "30,400",
+        "description": "A mysterious cloak that bears the symbol of the ancient gods.",
+        "image": "images/ancient-cloak.jpg"
+    },
+    {
+        "id": "m3",
+        "name": "Blue Party Hat",
+        "price": "8,300",
+        "description": "A rare and festive hat that signifies wealth and status.",
+        "image": "images/blue-party-hat.jpg"
+    },
+    {
+        "id": "m4",
+        "name": "Dragon Boots",
+        "price": "132,000",
+        "description": "Sturdy boots made from the scales of a fierce dragon.",
+        "image": "images/dragon-boots.jpg"
+    },
+    {
+        "id": "m5",
+        "name": "Dragon Dagger",
+        "price": "18,000",
+        "description": "A finely crafted dagger with a deadly poison reservoir.",
+        "image": "images/dragon-dagger.jpg"
+    },
+    {
+        "id": "m6",
+        "name": "Dragon Defender",
+        "price": "5,000",
+        "description": "A defensive weapon that represents the peak of warrior skill.",
+        "image": "images/dragon-defender.jpg"
+    },
+    {
+        "id": "m7",
+        "name": "Dragon Full Helmet",
+        "price": "72,800,000",
+        "description": "A full helmet made from the toughest dragon metal.",
+        "image": "images/dragon-full-helmet.jpg"
+    },
+    {
+        "id": "m8",
+        "name": "Dragon Kite",
+        "price": "53,000,000",
+        "description": "A shield emblazoned with a dragon, offering high defense bonuses.",
+        "image": "images/dragon-kite.jpg"
+    },
+    {
+        "id": "m9",
+        "name": "Dragon Long",
+        "price": "100,000",
+        "description": "A longsword forged in dragonfire, with a keenly sharp edge.",
+        "image": "images/dragon-long.jpg"
+    },
+    {
+        "id": "m10",
+        "name": "Dragon Sword",
+        "price": "60,000",
+        "description": "A sword that is both lightweight and capable of swift strikes.",
+        "image": "images/dragon-sword.jpg"
+    },
+    {
+        "id": "m11",
+        "name": "Granite Maul",
+        "price": "193,000",
+        "description": "A heavy maul capable of dealing crushing blows to foes.",
+        "image": "images/granite-maul.jpg"
+    },
+    {
+        "id": "m12",
+        "name": "Green Party Hat",
+        "price": "5,000",
+        "description": "A rare hat that brings cheer and a touch of envy to celebrations.",
+        "image": "images/green-party-hat.jpg"
+    },
+    {
+        "id": "m13",
+        "name": "Prayer Potion",
+        "price": "8,300",
+        "description": "A potion that replenishes prayer points for prolonged battles.",
+        "image": "images/prayer-potion.jpg"
+    },
+    {
+        "id": "m14",
+        "name": "Pumpkin",
+        "price": "8,500",
+        "description": "An edible and somewhat spooky seasonal treat.",
+        "image": "images/pumpkin.jpg"
+    },
+    {
+        "id": "m15",
+        "name": "Purple Party Hat",
+        "price": "6,000",
+        "description": "A hat that is the centerpiece of any grand celebration.",
+        "image": "images/purple-party-hat.jpg"
+    },
+    {
+        "id": "m16",
+        "name": "Rune Boots",
+        "price": "7,200",
+        "description": "Hardy boots crafted from rune, offering solid protection.",
+        "image": "images/rune-boots.jpg"
+    },
+    {
+        "id": "m17",
+        "name": "Saradomin Sword",
+        "price": "140,000",
+        "description": "A two-handed sword blessed by the god Saradomin himself.",
+        "image": "images/saradomin-sword.jpg"
+    },
+    {
+        "id": "m18",
+        "name": "Scyther",
+        "price": "1,000,000",
+        "description": "A large, reaping tool that has been repurposed for battle.",
+        "image": "images/scyther.jpg"
+    },
+    {
+        "id": "m19",
+        "name": "Super Attack Potion",
+        "price": "1,700",
+        "description": "A potion that boosts your attack accuracy significantly.",
+        "image": "images/super-attack-potion.jpg"
+    },
+    {
+        "id": "m20",
+        "name": "Super Energy",
+        "price": "6,000",
+        "description": "This potion rejuvenates your energy at an accelerated rate.",
+        "image": "images/super-energy.jpg"
+    },
+    {
+        "id": "m21",
+        "name": "Super Restore",
+        "price": "9,000",
+        "description": "A powerful potion that restores various stats and prayer points.",
+        "image": "images/super-restore.jpg"
+    },
+    {
+        "id": "m22",
+        "name": "Warrior Helmet",
+        "price": "45,000",
+        "description": "A helmet that marks the wearer as a true combatant.",
+        "image": "images/warrior-helmet.jpg"
+    },
+    {
+        "id": "m23",
+        "name": "Yellow Party Hat",
+        "price": "4,000",
+        "description": "The ultimate status symbol at any RuneScape party.",
+        "image": "images/yellow-party-hat.jpg"
+    }
+]
