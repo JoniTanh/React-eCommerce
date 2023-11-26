@@ -1,23 +1,23 @@
-import { useEffect, useState } from "react";
 import ProductItem from "./ProductItem";
+import useHttp from "../hooks/useHttp";
+import Error from "./Error";
+
+const requestConfig = {};
 
 export default function Products() {
-  const [loadedProducts, setLoadedProducts] = useState([]);
+  const {
+    data: loadedProducts,
+    isLoading,
+    error,
+  } = useHttp("http://localhost:3001/api/products", requestConfig, []);
 
-  useEffect(() => {
-    async function fetchProducts() {
-      const response = await fetch("http://localhost:3001/api/products");
+  if (isLoading) {
+    return <p className="text-center">Fetching products...</p>;
+  }
 
-      if (!response.ok) {
-        // ...
-      }
-
-      const products = await response.json();
-      setLoadedProducts(products);
-    }
-
-    fetchProducts();
-  }, []);
+  if (error) {
+    return <Error title="Failed to fetch products" message={error} />;
+  }
 
   return (
     <div className="flex justify-center">

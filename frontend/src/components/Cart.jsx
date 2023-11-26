@@ -19,9 +19,14 @@ export default function Cart() {
     userProgressCtx.hideCart();
   }
 
+  function handleGoToCheckout() {
+    userProgressCtx.showCheckout();
+  }
+
   return (
     <Modal
       open={userProgressCtx.progress === "cart"}
+      onClose={userProgressCtx.progress === "cart" ? handleCloseCart : null}
       className="w-1/3 p-6 rounded-xl backdrop:bg-stone-900/90 bg-stone-100"
     >
       <h2 className="font-bold text-xl mb-2">Your Cart</h2>
@@ -47,12 +52,14 @@ export default function Cart() {
         >
           Close
         </Button>
-        <Button
-          className="bg-yellow-400 hover:bg-yellow-600 p-2 rounded-xl shadow-xl"
-          onClick={handleCloseCart}
-        >
-          Go to Checkout
-        </Button>
+        {cartCtx.items.length > 0 && (
+          <Button
+            className="bg-yellow-400 hover:bg-yellow-600 p-2 rounded-xl shadow-xl"
+            onClick={handleGoToCheckout}
+          >
+            Go to Checkout
+          </Button>
+        )}
       </p>
     </Modal>
   );
